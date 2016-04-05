@@ -1,0 +1,26 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 213 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1057028 0 0
+ciMethod java/lang/RuntimeException <init> (Ljava/lang/String;)V 0 0 3 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 1001 1 9456 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 2097 1 21020 0 -1
+ciMethod java/lang/StringBuilder append (I)Ljava/lang/StringBuilder; 0 0 7 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 1089 1 9477 0 -1
+ciMethod java/lang/Long numberOfTrailingZeros (J)I 1089 1 12424 0 -1
+ciMethod java/util/ArrayList size ()I 1089 1 136 0 0
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 1977 1 1118103 0 0
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 1977 1 1106552 0 128
+ciMethod java/util/ArrayList rangeCheck (I)V 1977 1 1116612 0 0
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 2073 1 195322 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1057037 orig 264 8 177 176 98 0 0 0 0 128 4 105 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 105 248 128 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/BitSet wordIndex (I)I 2049 1 68954 0 0
+ciMethod java/util/BitSet checkInvariants ()V 2049 1 7490 0 32
+ciMethod java/util/BitSet set (I)V 2889 1 5569 0 -1
+ciMethod java/util/BitSet set (II)V 3217 1 12180 0 -1
+ciMethod java/util/BitSet get (I)Z 1577 1 5627 0 160
+ciMethod java/util/BitSet nextClearBit (I)I 3081 1 17575 0 0
+ciMethodData java/util/ArrayList get (I)Ljava/lang/Object; 2 1106552 orig 264 8 177 176 98 0 0 0 0 56 216 117 20 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 247 0 0 0 9 12 135 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 8 0x20002 0x10e1d8 0x70005 0x0 0x17f19c30 0x10e3cf 0x0 0x0 oops 1

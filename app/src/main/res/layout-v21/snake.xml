@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/WHITE"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.sergeygarin.snake.Playfield android:id="@+id/playField1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </com.sergeygarin.snake.Playfield>
+
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:id="@+id/button1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+            android:textAppearance="@style/bold" android:freezesText="true"
+        android:textColor="@color/primary_dark_material_dark"
+        />
+
+    <TextView android:id="@+id/textView1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:text="TextView"
+              android:editable="false"
+              android:elegantTextHeight="false"
+              android:textStyle="bold|italic"
+              android:layout_marginBottom="22dp"
+              android:layout_above="@+id/button1"
+              android:layout_centerHorizontal="true"/>
+
+    <TextView android:id="@+id/textView2"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:layout_height="wrap_content"
+              android:visibility="gone"
+              android:layout_width="wrap_content" android:text="TextView"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentStart="true"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Button"
+        android:id="@+id/button2" android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+            android:textColor="@color/primary_dark_material_dark"/>
+
+    <ImageView android:layout_width="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"/>
+
+    <Button android:layout_height="wrap_content"
+        android:width="180dp"
+        android:layout_width="wrap_content" android:id="@+id/button3"
+            android:textAppearance="@style/bold"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/primary_dark_material_dark"
+        android:text="@string/credits"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
